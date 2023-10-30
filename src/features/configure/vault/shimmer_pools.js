@@ -33,4 +33,38 @@ export const shimmerPools = [
     buyTokenUrl:
       "https://shimmersea.finance/swap?outputCurrency=0x4794Aeafa5Efe2fC1F6f5eb745798aaF39A81D3e",
   },
+    {
+    id: "shimmer-shimmer-deepr",
+    name: "DEEPR-SMR LP",
+    token: "DEEPR-SMR LP",
+    tokenDescription: "DEEPR-SMR",
+    tokenAddress: "0xD56C46DdE3079Bb7799826C6bff217665206100B",
+    tokenDecimals: 18,
+    tokenDescriptionUrl: "#",
+    earnedToken: "ACR-DEEPR-SMR",
+    earnedTokenAddress: "0xAC6BA03BDDA566a21CD87FeFc945820e7d718aFf",
+    earnContractAddress: "0xAC6BA03BDDA566a21CD87FeFc945820e7d718aFf",
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: "lps",
+    oracleId: "shimmer-shimmer-deepr",
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: "active",
+    platform: "shimmersea",
+    withdrawalFee: "0%",
+    assets: ["shimmer", "DEEPR"],
+    risks: [
+      "COMPLEXITY_LOW",
+      "BATTLE_TESTED",
+      "IL_LOW",
+      "AUDIT",
+      "CONTRACTS_VERIFIED",
+    ],
+    stratType: "StratLP",
+    addLiquidityUrl:
+      "https://shimmersea.finance/add/0x1074010000000000000000000000000000000000/0x326f23422CE22Ee5fBb5F37f9fa1092d095546F8",
+    buyTokenUrl:
+      "https://shimmersea.finance/swap?outputCurrency=0x326f23422CE22Ee5fBb5F37f9fa1092d095546F8",
+  },
 ];
