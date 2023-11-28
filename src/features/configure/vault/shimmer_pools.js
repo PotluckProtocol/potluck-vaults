@@ -137,4 +137,38 @@ export const shimmerPools = [
     buyTokenUrl:
       "https://shimmersea.finance/swap?outputCurrency=0x264f2e6142ce8bea68e5c646f8c07db98a9e003a",
   },
+  {
+    id: "shimmer-shimmer-rust",
+    name: "RUST-SMR LP",
+    token: "RUST-SMR LP",
+    tokenDescription: "RUST-SMR",
+    tokenAddress: "0x9f43B71C94837f37700A5861d34c3bF8865cC728",
+    tokenDecimals: 18,
+    tokenDescriptionUrl: "#",
+    earnedToken: "ACR-RUST-SMR",
+    earnedTokenAddress: "0xCEFcf9a71B60146297A3D77b21839773074080BB",
+    earnContractAddress: "0xCEFcf9a71B60146297A3D77b21839773074080BB",
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: "lps",
+    oracleId: "shimmer-shimmer-rust",
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: "active",
+    platform: "shimmersea",
+    withdrawalFee: "0%",
+    assets: ["shimmer", "RUST", "LUM"],
+    risks: [
+      "COMPLEXITY_LOW",
+      "BATTLE_TESTED",
+      "IL_LOW",
+      "AUDIT",
+      "CONTRACTS_VERIFIED",
+    ],
+    stratType: "StratLP",
+    addLiquidityUrl:
+      "https://shimmersea.finance/add/0x1074010000000000000000000000000000000000/0xbD17705cA627EFBB55dE22A0F966Af79E9191c89",
+    buyTokenUrl:
+      "https://shimmersea.finance/swap?outputCurrency=0xbD17705cA627EFBB55dE22A0F966Af79E9191c89",
+  },
 ];
