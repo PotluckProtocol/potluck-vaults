@@ -171,4 +171,38 @@ export const shimmerPools = [
     buyTokenUrl:
       "https://shimmersea.finance/swap?outputCurrency=0xbD17705cA627EFBB55dE22A0F966Af79E9191c89",
   },
+   {
+    id: 'shimmer-shimmer-usdt',
+    name: 'USDT-SMR LP',
+    token: 'USDT-SMR LP',
+    tokenDescription: 'USDT-SMR',
+    tokenAddress: '0xA3e6fBF50a05e6033eD48adC2351C6099b0B2499',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'ACR-USDT-SMR',
+    earnedTokenAddress: '0x6b41A98EA742EcBa994D08C0c850242A5daFac90',
+    earnContractAddress: '0x6b41A98EA742EcBa994D08C0c850242A5daFac90',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'shimmer-shimmer-usdt',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'shimmersea',
+    withdrawalFee: '0%',
+    assets: ['shimmer', 'USDT'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_LOW',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://shimmersea.finance/add/0x1074010000000000000000000000000000000000/0xbD17705cA627EFBB55dE22A0F966Af79E9191c89',
+    buyTokenUrl:
+      'https://shimmersea.finance/swap?outputCurrency=0xbD17705cA627EFBB55dE22A0F966Af79E9191c89',
+  },
 ];
