@@ -205,4 +205,38 @@ export const shimmerPools = [
     buyTokenUrl:
       'https://shimmersea.finance/swap?outputCurrency=0xbD17705cA627EFBB55dE22A0F966Af79E9191c89',
   },
+  {
+    id: 'shimmer-shimmer-eth',
+    name: 'ETH-SMR LP',
+    token: 'ETH-SMR LP',
+    tokenDescription: 'ETH-SMR',
+    tokenAddress: '0x152D0436369aab0A83ca5F45B7C0dA3f26FC0Fa9',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'ACR-USDT-SMR',
+    earnedTokenAddress: '0x04D09a52e3D547C8f3e598dcCB3dFcC0CbB97CD7',
+    earnContractAddress: '0x04D09a52e3D547C8f3e598dcCB3dFcC0CbB97CD7',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'shimmer-shimmer-eth',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'shimmersea',
+    withdrawalFee: '0%',
+    assets: ['shimmer', 'ETH'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_LOW',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://shimmersea.finance/add/0x1074010000000000000000000000000000000000/0xbD17705cA627EFBB55dE22A0F966Af79E9191c89',
+    buyTokenUrl:
+      'https://shimmersea.finance/swap?outputCurrency=0xbD17705cA627EFBB55dE22A0F966Af79E9191c89',
+  },
 ];
