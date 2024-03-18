@@ -307,4 +307,38 @@ export const shimmerPools = [
     buyTokenUrl:
       'https://shimmersea.finance/swap?outputCurrency=0xbD17705cA627EFBB55dE22A0F966Af79E9191c89',
   },
+    {
+    id: 'shimmer-siota-rust',
+    name: 'sIOTA-RUST LP',
+    token: 'sIOTA-RUST LP',
+    tokenDescription: 'sIOTA-RUST',
+    tokenAddress: '0x66218f8303Ee8a2705B69944F8BFCF21dfcbd988',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'ACR-USDT-LUM',
+    earnedTokenAddress: '0x00c778d386A8F0117f960bbC149Ed042eaE4D01c',
+    earnContractAddress: '0x00c778d386A8F0117f960bbC149Ed042eaE4D01c',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'shimmer-siota-rust',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'shimmersea',
+    withdrawalFee: '0%',
+    assets: ['sIOTA', 'RUST'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_LOW',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://shimmersea.finance/add/0x1074010000000000000000000000000000000000/0xbD17705cA627EFBB55dE22A0F966Af79E9191c89',
+    buyTokenUrl:
+      'https://shimmersea.finance/swap?outputCurrency=0xbD17705cA627EFBB55dE22A0F966Af79E9191c89',
+  },
 ];
